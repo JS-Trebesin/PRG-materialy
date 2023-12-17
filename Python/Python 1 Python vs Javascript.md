@@ -133,7 +133,7 @@ V Pythonu neexistuje `do while`
 
 ## Cyklus for
 
-U cyklu for naleznete největší rozdíl. V Pythonu zapisujeme cyklus for následujícím způsobem `for promenna in nejaky_seznam`
+U cyklu for nalezneme největší rozdíl. V Pythonu zapisujeme cyklus for následujícím způsobem `for promenna in nejaky_seznam`
 
 Javascript
 
