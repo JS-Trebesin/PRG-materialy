@@ -164,3 +164,23 @@ seznam = ["Kulík", "Dulík", "Bubík"]
 for jmeno in seznam:
     print(jmeno)
 ```
+
+## Funkce
+
+V Pythonu používáme klíčové slovo `def` místo `function` známého z Javascriptu
+
+Javascript
+
+```js
+function pozdrav() {
+    console.log("Ahoj!")
+}
+```
+
+Python
+
+```python
+def pozdrav() {
+  print("Ahoj!")
+}
+```
