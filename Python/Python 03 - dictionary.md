@@ -1,6 +1,6 @@
 # Dictionary
 
-_Dictionary_ neboli slovník, který slouží k ukládání dat - konkrétně páru key - value (klíč - hodonota).
+_Dictionary_ neboli slovník slouží k ukládání dat - konkrétně páru key - value (klíč - hodonota).
 
 _Dictionary_ je podobný typ dat jako list, nicméně list umožňuje ukládat data pouze pod určitý index číselné hodnoty - 0, 1, 2, ... - kdežto u dictionary si můžeme index pojmenovat.
 
