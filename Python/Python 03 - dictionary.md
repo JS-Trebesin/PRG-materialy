@@ -17,9 +17,9 @@ pokemon = {
 }
 ```
 
-Dictionary vytváříme pomocí složených závorek `{}` a jednotlivé páry hodnot oddělujeme čárkou.
+Dictionary vytváříme pomocí složených závorek `{}` a jednotlivé páry key value oddělujeme čárkou.
 
-_Key_ musí být vždy v uvozovkách, jako string. _Value_ (hodnota) může být jakýkoliv datový typ - string, int, float, boolean, ale také list nebo další dictionary.
+_Key_ musí být vždy v uvozovkách, tak jako string. _Value_ (hodnota) může být jakýkoliv datový typ - string, int, float, boolean, ale také list nebo další dictionary.
 
 ### Přístup k hodnotám
 
@@ -39,7 +39,7 @@ for value in pokemon:
 # Vypíše Pikachu, elektrický, 40.6, False
 ```
 
-Chceme-li zkontrolovat, jestli se určitý key nachází v našem dictionary, můžeme využít výraz `in` ve spojí s podmínkou `if`
+Chceme-li zkontrolovat, jestli se určitý key nachází v našem dictionary, můžeme využít výraz `in` ve spojení s podmínkou `if`
 
 ```python
 key = "jméno"
