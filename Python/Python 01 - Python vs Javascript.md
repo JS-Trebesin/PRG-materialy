@@ -180,7 +180,6 @@ function pozdrav() {
 Python
 
 ```python
-def pozdrav() {
+def pozdrav():
   print("Ahoj!")
-}
 ```
