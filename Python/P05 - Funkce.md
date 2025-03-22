@@ -1,0 +1,3 @@
+-   funkce main
+-   scope?
+-   parametry a argumenty

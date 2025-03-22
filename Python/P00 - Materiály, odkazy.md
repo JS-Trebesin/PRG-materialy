@@ -18,11 +18,7 @@ Video v češtině, ve kterém jsou probrané základní koncepty:
 
 Materiály k Pythonu v češtině - [odkaz](https://naucse.python.cz/course/pyladies/)
 
-## 3. Automate boring stuff
-
-Oblíbená učebnice Pythonu, v angličtině - [odkaz](https://automatetheboringstuff.com/)
-
-## 4. CS50P
+## 3. CS50P
 
 David Malan je vynikající profesor, který na Harvardu přednáší populární kurz informatiky - CS50 - a nově také kurz zaměřený na Python CS50P
 
@@ -38,6 +34,19 @@ Odkazy:
 
 -   [Materiály + úkoly z kurzu](https://cs50.harvard.edu/python/2022/weeks/0/)
 
-## 5. umimeinformatiku.cz
+## 4. umimeinformatiku.cz
 
 Webová stránka plná úkolů na procvičování Pythonu - [odkaz](https://www.umimeinformatiku.cz/programovani-v-pythonu)
+
+## 5. b001
+
+Youtubový kanál (AJ) vysvětlující pythonské koncepty [odkaz](https://www.youtube.com/@b001)
+
+## 6. Clear Code
+
+Youtubový kanál (AJ) detailně vysvětlující Pygame [odkaz](https://www.youtube.com/@ClearCode)
+Alternativně Coding With Russ (AJ) je další povoedený kanál věnující se Pygame [odkaz](https://www.youtube.com/@CodingWithRuss)
+
+## 6. Automate boring stuff
+
+Oblíbená učebnice Pythonu, v angličtině - [odkaz](https://automatetheboringstuff.com/)

@@ -52,7 +52,7 @@ print(uziv_input)
 
 ## Vytváření proměnných
 
-Python nepoužívá žádné klíčové slovo jako `let`
+Python nepoužívá žádné klíčové slovo jako `var`, `let` nebo `const`, pokud chci vytvořit proměnnou, stačí napsat její jméno a =
 
 Javascript
 
@@ -68,6 +68,8 @@ Python
 text = "What  is the answer to the ultimate question of life, the universe, and everything"
 cislo = 42
 ```
+
+Pozor, v Pythonu nefunguje syntax známý z Javascriptu `cislo++` zvýšení hodnoty proměnné o 1. Musíme používat `cislo += 1`
 
 ## Array vs List
 
@@ -182,4 +184,5 @@ Python
 ```python
 def pozdrav():
   print("Ahoj!")
+
 ```
