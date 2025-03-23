@@ -6,7 +6,7 @@ Abyste mohli Python začít používat ve Windows nebo na Mac, musíte jej nejd�
 
 **Důležité! Při instalaci zaškrněte**
 
--   **[x] Add Python to PATH**
+-   [x] Add Python to PATH
 
 ### Nastavení extension pro Python
 
