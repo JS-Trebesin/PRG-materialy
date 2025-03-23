@@ -34,7 +34,7 @@ Pokud jste správně nastavili extension (viz odstavec výš), můžete spustit 
 
 ## Odsazování
 
-V Pythonu je nezbytné správně odsazovat. Kdežto v Javascriptu je odsazování dobrovolné a jeho hlavní důvod je čitelnost a zachování dobrého mentálního stavu vašeho učitele, **v Pythonu je odsazování povinné (!)** - Python totiž nepoužívá složené závorky pro označení, kde začíná a končí kód. Místo toho používá právě odsazení.
+V Pythonu je nezbytné správně odsazovat. Kdežto v Javascriptu je odsazování dobrovolné a jeho hlavní důvod je čitelnost a zachování dobrého mentálního stavu vašeho učitele, **v Pythonu je odsazování povinné (!)** - Python totiž nepoužívá složené závorky pro označení, kde začíná a končí kód. Místo toho používá právě odsazení
 
 ## snake_case
 
@@ -72,6 +72,15 @@ HVEZDA = "Polárka"
 ```
 
 Pozor, přesto lze tuto proměnnou v Pythonu přepsat. Nicméně to, že je psaná v caps lockem by nás mělo upozornit, že bychom to neměli dělat
+
+### Pojmenování proměnných
+
+Pokud používáš češtinu pro názvy proměnných, vyvaruj se používání diakritiky. V některých případech, ačkoliv jsou velmi vzácné, to může způsobovat chyby. Standardem je používat buď anglické názvy proměnných nebo české bez diakritiky. Do hodnoty v textu, do uvozovek, již samozřejmě diakritiku použít můžeš
+
+```python
+cislo = 42
+jmeno = "Kvído"
+```
 
 ## Vypisování do konzole
 

@@ -56,6 +56,33 @@ zprava = "Dneska je pátek! 🎉"
 zjisteni = "V sobotu není škola 😢"
 ```
 
+**`f-string`**
+
+V programování častokrát narazíme na případ, kdy chceme do stringu dosadit údaj z existující proměné. Toho můžeme dosáhnout pomocí spojování stringu, tzv. concatenation
+
+```python
+pocet_loupezniku = 40
+sdeleni = "Ahoj, jmenuji se Alibaba a mám " + pocet_loupezniku + " kamarádů."
+```
+
+Tento způsob může být protivný. Musíme si dávat pozor na mezery a při použití většího množství proměnných může být spojování pomocí `+` chaotické
+
+```python
+pocet_loupezniku = 40
+jmeno = "Alibaba"
+pozdrav = "Ahoj"
+sdeleni = Pozdrav + ", jmenuji se " + jmeno + " a mám " + pocet_loupezniku + " kamarádů."
+```
+
+Python však nabízí alternativu, tzv. `f-string`. Před uvozovky na začátku stringu vložíme písmenko `f` a do věty dosadíme název proměnné do složených závorek `{}`
+
+```python
+pocet_loupezniku = 40
+jmeno = "Alibaba
+pozdrav = "Ahoj
+sdeleni = f"{pozdrav}, jmenuji se {jmeno} a mám {pocet_loupezniku} kamarádů."
+```
+
 ### `int` Integer (celé číslo)
 
 Celé číslo bez desetinné čárky – může být kladné, záporné nebo nula
