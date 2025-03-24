@@ -96,7 +96,7 @@ if __name__ == "__main__":
     main()
 ```
 
-Podmínka `if __name__ == "__main__"` znamená, že kód se spustí pouze tehdy, když je soubor spuštěn přímo. V Pythonu můžeme náš soubor totiž spustit nejen přímo, ale také jej můžeme snadno importovat do jiného souboru (viz kapitola P20 - Moduly)
+Podmínka `if __name__ == "__main__"` znamená, že kód se spustí pouze tehdy, když je soubor spuštěn přímo. V Pythonu můžeme náš soubor totiž spustit nejen přímo, ale také jej můžeme snadno importovat do jiného souboru (viz kapitola [P20 - Moduly](P20%20-%20Moduly.md))
 
 Při každém spuštění kódu je Pythonem automaticky vytvořena proměnná `__name__`, za kterou je dosazena hodnota `__main__` pokud je kód spuštěn přímo a nebo název souboru, pokud je kód importován.
 
@@ -145,3 +145,9 @@ print(jmeno) # Kazimír
 ```
 
 Obecně ale platí, že se chceme vyhnout častému využívání globálních proměnných. Pokud jich používáme mnoho, v dlouhém kódu o nich ztrácíme přehled a zvyšujeme tím pravděpodobnost vytvoření bugů
+
+## Anonymní funkce - `lambda`
+
+V Pythonu můžeme vytvářet také anonymní funkce. Ty vytváříme klíčovým slovem `lambda`
+
+Více o `lambda` funkcích v kapitole [P09 - Lambda](P09%20-%20Lambda%20-%20anonymní%20funkce.md)

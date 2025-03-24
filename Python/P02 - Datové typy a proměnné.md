@@ -130,7 +130,7 @@ Vetšina hodnot je defaultně `True`. Každý _string_ je _True_, s výjimkou pr
 
 List je seznam hodnot. Může obsahovat libovolné datové typy - například té dictionary nebo další list (seznamu v seznamu). Lze jej měnit
 
-Více o listech v kapitole [List a tuple]()
+Více o listech v kapitole [List a tuple](P06%20-%20List%20a%20tuple.mid)
 
 ```python
 seznam_studentu = ["Jarmil", "Anděla", "Hvězďon", "Višeslava"]
@@ -149,7 +149,7 @@ print(seznam_studentu[1]) # Anděla
 
 Podobný listu, ale používáme obyčejné závorky `()`. **Nelze** jej měnit (nelze přidávat, mazat nebo upravovat položky)
 
-Více o tuplech v kapitole [List a tuple]()
+Více o tuplech v kapitole [List a tuple](P06%20-%20List%20a%20tuple.mid)
 
 ```python
 souradnice = (50.1294, 16.3103)
@@ -160,7 +160,7 @@ barva = (255, 0, 0)
 
 Ukládá dvojci key: value (klíč: hodnota). Používáme pro strukturovaná data. Lze měnit
 
-Více o dictionary v kapitole [Dictionary]()
+Více o dictionary v kapitole [Dictionary](P07%20-%20Dictionary.md)
 
 ```python
 vzorny_student = {
