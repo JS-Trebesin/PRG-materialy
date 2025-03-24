@@ -17,7 +17,7 @@ def pozdrav():
 Funkce vytvořena výše je zabalený kód, který sám o sobě nic nedělá. Musíme jej nejprve zavolat, což provedeme tak, že napíšeme název funkce a závorky `()`
 
 ```python
-pozdrav():
+pozdrav()
 
 # Ahoj!
 
