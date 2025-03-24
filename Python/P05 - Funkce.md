@@ -148,6 +148,21 @@ Obecně ale platí, že se chceme vyhnout častému využívání globálních p
 
 ## Anonymní funkce - `lambda`
 
-V Pythonu můžeme vytvářet také anonymní funkce. Ty vytváříme klíčovým slovem `lambda`
+V Pythonu můžeme vytvářet také anonymní funkce. Ty vytváříme klíčovým slovem `lambda`. Celý syntax je `lambda argumenty: kód`. Lambda funkci poté můžeme uložit pod proměnnou nebo použít přímo uvnitř další funkce
+
+```python
+# lambda funkce s argumentem
+pozdrav = lambda jmeno: f"Ahoj, {jmeno}!"
+print(pozdrav("Jarmil"))  # Ahoj, Jarmil!
+
+# lambda funkce bez argumentu
+
+pozdrav = lambda: "Ahoj!"
+print(pozdrav())  # Ahoj!
+
+# lambda funkce spuštěna uvnitř další funkce, v našem případě print()
+
+print((lambda jmeno: f"Ahoj, {jmeno}!")("Anděla"))
+```
 
 Více o `lambda` funkcích v kapitole [P09 - Lambda](P09%20-%20Lambda%20-%20anonymní%20funkce.md)
