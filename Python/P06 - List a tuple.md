@@ -40,7 +40,7 @@ seznam_studentu = ["Jarmil", "Anděla", "Hvězďon", "Višeslava"]
 
 ```
 
-## Přístup k hodnotám
+### Přístup k hodnotám
 
 Každá položka má svůj **index**, tj. pořadní číslo - počítače počítají od 0, takže první položka má index 0, druhá index 1, atd.
 
@@ -100,7 +100,7 @@ print(jmeno) # Ctirad
 
 Více k listům na [W3 schools](https://www.w3schools.com/python/python_lists_methods.asp) nebo na [Nauč se Python](https://naucse.python.cz/lessons/beginners/list/)
 
-### `tuple` - Tuple (neměnitelný seznam)
+## `tuple` - Tuple (neměnitelný seznam)
 
 Podobný listu, ale používáme obyčejné závorky `()`. **Nelze** jej měnit (nelze přidávat, mazat nebo upravovat položky). Procházení tuple je pro počítač také trochu rychlejší, než procházení listu. Tuple také používá index, takže k hodnotám můžeme přistupovat stejným způsobem, jako u listu
 
@@ -110,7 +110,7 @@ souradnice = (50.1294, 16.3103)
 barva = (255, 0, 0)
 ```
 
-### `set` - Set (množina)
+## `set` - Set (množina)
 
 V Pythonu existuje také set. Set píšeme do složených závorek `{}`. Set je měnitelný, **nemá** však index a je specifický především tím, že maže duplicitní hodnoty - každá hodnota v setu je unikátní. Pokud přidáme jednu hodnotu 2x, v setu bude pouze jednou, druhá bude smazána. Využití setu je tedy například na rychlé filtrování dat
 
