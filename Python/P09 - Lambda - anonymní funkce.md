@@ -1,3 +1,5 @@
+🚧 Work in progress ... 🚧
+
 # Lambda je anonymní funkce
 
 ```python
