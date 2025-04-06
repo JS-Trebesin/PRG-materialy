@@ -40,7 +40,7 @@ seznam_studentu = ["Jarmil", "Anděla", "Hvězďon", "Višeslava"]
 
 ```
 
-## Přístup k hodnotám
+### Přístup k hodnotám
 
 Každá položka má svůj **index**, tj. pořadní číslo - počítače počítají od 0, takže první položka má index 0, druhá index 1, atd.
 
@@ -51,11 +51,31 @@ Pro přístup k jednotlivým položkám používáme `nazev_listu[index]`
 print(seznam_studentu[1]) # Anděla
 ```
 
+Pro poslední hodnotu můžeme využít index `-1`
+
+```python
+print(seznam_studentu[-1]) # Višeslava
+```
+
 Pokud chci hodnotu změnit, použiji stejný syntax a přiřadím novou hodnotu
 
 ```python
-seznam_studentu[2] = "Kvído" # [["Jarmil", "Anděla", "Kvído", "Višeslava"]
+seznam_studentu[2] = "Kvído" # ["Jarmil", "Anděla", "Kvído", "Višeslava"]
 ```
+
+Můžeme také využít pythonský syntax pro přístup k určitému rozsahu hodnot `[začátek:konec]`
+
+```python
+print(seznam_studentu[1:3]) # ["Anděla", "Kvído", "Višeslava"]
+```
+
+Pokud neuvedeme začátek nebo konec, automaticky se bere `0`, tzn. první hodnota
+
+```python
+print(seznam_studentu[:2]) # ["Jarmil", "Anděla", "Kvído"]
+print(seznam_studentu[2:]) # ["Kvído", "Višeslava"]
+```
+
 
 ### Přidání a mazání
 
@@ -64,15 +84,39 @@ Pro přidání do listu používáme funkci `append()`.
 seznam_studentu.append("Ctirad") # ["Jarmil", "Anděla", "Kvído", "Višeslava", "Ctirad"]
 ```
 
+Pro mazání můžeme použít `pop(index)` nebo `remove(hodnota)`
+
+```python
+seznam_studentu.pop(0) # smaže první, takže zbyde ["Anděla", "Kvído", "Višeslava", "Ctirad"]
+seznam_studentu.remove("Višeslava") # ["Anděla", "Kvído", "Ctirad"]
+```
+
+`pop(index)` hodnotu nejen smaže, ale také vrátí, můžeme ji pak ukrýt pod proměnnou a dále použít
+```python
+# ["Anděla", "Kvído", "Ctirad"]
+jmeno = seznam_studentu.pop(2) # ["Anděla", "Kvído"]
+print(jmeno) # Ctirad
+```
+
 Více k listům na [W3 schools](https://www.w3schools.com/python/python_lists_methods.asp) nebo na [Nauč se Python](https://naucse.python.cz/lessons/beginners/list/)
 
-### `tuple` - Tuple (neměnitelný seznam)
+## `tuple` - Tuple (neměnitelný seznam)
 
-Podobný listu, ale používáme obyčejné závorky `()`. **Nelze** jej měnit (nelze přidávat, mazat nebo upravovat položky)
+Podobný listu, ale používáme obyčejné závorky `()`. **Nelze** jej měnit (nelze přidávat, mazat nebo upravovat položky). Procházení tuple je pro počítač také trochu rychlejší, než procházení listu. Tuple také používá index, takže k hodnotám můžeme přistupovat stejným způsobem, jako u listu
 
-Více o tuplech v kapitole [List a tuple]()
 
 ```python
 souradnice = (50.1294, 16.3103)
 barva = (255, 0, 0)
+```
+
+## `set` - Set (množina)
+
+V Pythonu existuje také set. Set píšeme do složených závorek `{}`. Set je měnitelný, **nemá** však index a je specifický především tím, že maže duplicitní hodnoty - každá hodnota v setu je unikátní. Pokud přidáme jednu hodnotu 2x, v setu bude pouze jednou, druhá bude smazána. Využití setu je tedy například na rychlé filtrování dat
+
+```python
+cisla = {1, 1, 2, 3}
+print(cisla) # {1, 2, 3}
+
+print(cisla[2]) # error, set nemá index
 ```
