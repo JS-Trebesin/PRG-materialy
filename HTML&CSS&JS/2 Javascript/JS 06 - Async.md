@@ -75,7 +75,7 @@ async function ziskejData(adresa) {
     }
 }
 
-    async function zobrazData() {
+async function zobrazData() {
     const kociciFakta = await ziskejData(mojeApi)
 
     if (kociciFakta) {
@@ -120,7 +120,7 @@ async function ziskejData(adresa) {
 
 // jelikož získávání dat je asynchronní, jejich zobrazení musí být též asynchronní
 // protože musí počkat, až se data získají
-    async function zobrazData() {
+async function zobrazData() {
     // pod proměnnou kociciFakta ulož výsledek z funkce, která data získává
     // ziskejData() je asynchronní, proto await
     const kociciFakta = await ziskejData(mojeApi)
